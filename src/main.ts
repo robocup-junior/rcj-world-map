@@ -223,9 +223,13 @@ function fitTo(items: Region[]) {
 const tooltip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12, className: 'tip' });
 
 map.on('load', () => {
-  // Show place names in English (falling back to the local name) for an international audience.
+  // RoboCupJunior is organised by region, so hide the base map's country, state and place labels
+  // (our own region labels are added below) and show any remaining labels in English.
   for (const layer of map.getStyle().layers) {
-    if (layer.type === 'symbol' && map.getLayoutProperty(layer.id, 'text-field')) {
+    if (layer.type !== 'symbol') continue;
+    if (/country|state|place|label_city|label_town|label_village|capital/i.test(layer.id)) {
+      map.setLayoutProperty(layer.id, 'visibility', 'none');
+    } else if (map.getLayoutProperty(layer.id, 'text-field')) {
       map.setLayoutProperty(layer.id, 'text-field', ['coalesce', ['get', 'name:en'], ['get', 'name']]);
     }
   }
@@ -264,6 +268,23 @@ map.on('load', () => {
       'circle-stroke-width': ['case', ['boolean', ['feature-state', 'selected'], false], 4, 2],
       'circle-stroke-color': ['case', ['boolean', ['feature-state', 'selected'], false], '#32373c', '#ffffff'],
     },
+  });
+
+  map.addLayer({
+    id: 'region-labels',
+    type: 'symbol',
+    source: 'regions',
+    filter: ['!', ['has', 'point_count']],
+    minzoom: 2.2,
+    layout: {
+      'text-field': ['get', 'name'],
+      'text-font': ['Noto Sans Bold'],
+      'text-size': 13,
+      'text-offset': [0, 1.3],
+      'text-anchor': 'top',
+      'text-optional': true,
+    },
+    paint: { 'text-color': '#0b1b45', 'text-halo-color': '#ffffff', 'text-halo-width': 1.6 },
   });
 
   map.on('click', 'clusters', async (e: MapLayerMouseEvent) => {
