@@ -9,7 +9,7 @@ An interactive map of RoboCupJunior regions, embedded on the [How to Get Started
 
 ## Updating a region
 
-All map data lives in [`data/regions.json`](data/regions.json). To add or change a region, edit that file on GitHub and open a pull request. The build checks the file automatically, and the live map updates a few minutes after the pull request is merged. Nothing needs to change on the WordPress site.
+All map data lives in [`data/regions.json`](data/regions.json). It follows the official RoboCupJunior Regional Representatives list (linked from the Getting Started page); update both together. To add or change a region, edit that file on GitHub and open a pull request. The build checks the file automatically, and the live map updates a few minutes after the pull request is merged. Nothing needs to change on the WordPress site.
 
 Each region looks like this:
 
@@ -18,6 +18,7 @@ Each region looks like this:
   "id": "japan",
   "name": "Japan",
   "superregion": "asia-pacific",
+  "status": "regional-rep",
   "lat": 35.6762,
   "lng": 139.6503,
   "website": "https://example.org/",
@@ -30,6 +31,7 @@ Each region looks like this:
 | `id` | Lowercase letters, numbers and dashes. Used in links (`#japan`). |
 | `name` | Country or region name, without "RoboCupJunior". |
 | `superregion` | `americas`, `asia-pacific` or `emea`. |
+| `status` | `regional-rep` (has a Regional Representative) or `contact-person` (growing region with a contact person), as on the official Regional Representatives list. |
 | `lat`, `lng` | Where the marker goes, usually the capital or the region's main city. |
 | `website` | The region's RoboCupJunior website, or `null`. |
 | `logo` | Path to a logo in `public/logos/` (e.g. `logos/japan.webp`, square, about 200 px), or `null`. |

@@ -2,7 +2,8 @@
 import { readFileSync, existsSync } from 'node:fs';
 
 const SUPERREGIONS = ['americas', 'asia-pacific', 'emea'];
-const KEYS = ['id', 'name', 'superregion', 'lat', 'lng', 'website', 'logo'];
+const KEYS = ['id', 'name', 'superregion', 'status', 'lat', 'lng', 'website', 'logo'];
+const STATUSES = ['regional-rep', 'contact-person'];
 const regions = JSON.parse(readFileSync(new URL('../data/regions.json', import.meta.url), 'utf8'));
 const errors = [];
 const ids = new Set();
@@ -16,6 +17,7 @@ regions.forEach((r, i) => {
   ids.add(r.id);
   if (!r.name || typeof r.name !== 'string') errors.push(`${where}: name is required`);
   if (!SUPERREGIONS.includes(r.superregion)) errors.push(`${where}: superregion must be one of ${SUPERREGIONS.join(', ')}`);
+  if (!STATUSES.includes(r.status)) errors.push(`${where}: status must be one of ${STATUSES.join(', ')}`);
   if (typeof r.lat !== 'number' || r.lat < -90 || r.lat > 90) errors.push(`${where}: lat must be a number between -90 and 90`);
   if (typeof r.lng !== 'number' || r.lng < -180 || r.lng > 180) errors.push(`${where}: lng must be a number between -180 and 180`);
   if (r.website !== null && !/^https?:\/\//.test(r.website ?? '')) errors.push(`${where}: website must start with http(s):// or be null`);

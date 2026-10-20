@@ -9,6 +9,7 @@ interface Region {
   id: string;
   name: string;
   superregion: SuperregionId;
+  status: 'regional-rep' | 'contact-person';
   lat: number;
   lng: number;
   website: string | null;
@@ -148,6 +149,10 @@ function renderDetail(r: Region) {
   const srDd = el('dd');
   srDd.appendChild(srTag(r.superregion));
   facts.append(el('dt', undefined, 'SuperRegion'), srDd);
+  facts.append(
+    el('dt', undefined, 'Led by'),
+    el('dd', undefined, r.status === 'regional-rep' ? 'A Regional Representative' : 'A contact person (growing region)'),
+  );
   const evDd = el('dd');
   const ev = el('a', undefined, sr.event.name);
   ev.href = sr.event.url;
