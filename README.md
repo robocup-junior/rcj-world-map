@@ -29,7 +29,7 @@ Each region looks like this:
 | Field | Notes |
 | --- | --- |
 | `id` | Lowercase letters, numbers and dashes. Used in links (`#japan`). |
-| `name` | Country or region name, without "RoboCupJunior". |
+| `name` | Region name, without "RoboCupJunior". |
 | `superregion` | `americas`, `asia-pacific` or `emea`. |
 | `status` | `regional-rep` (has a Regional Representative) or `contact-person` (growing region with a contact person), as on the official Regional Representatives list. |
 | `lat`, `lng` | Where the marker goes, usually the capital or the region's main city. |
