@@ -1,0 +1,21 @@
+{
+  "name": "rcj-world-map",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive map of RoboCupJunior regions, embedded on junior.robocup.org",
+  "scripts": {
+    "dev": "vite",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/validate.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}

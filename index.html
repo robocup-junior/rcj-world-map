@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <title>RoboCupJunior Around the World</title>
+    <meta name="description" content="Find your RoboCupJunior region: an interactive map of RoboCupJunior regions and their websites." />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="panel" aria-labelledby="panel-title">
+        <header class="panel-head">
+          <h1 id="panel-title">RoboCupJunior Around the World</h1>
+          <p class="summary" id="summary"></p>
+        </header>
+
+        <section id="browse" class="browse">
+          <label class="label" for="search">Search for your country</label>
+          <input id="search" type="search" placeholder="e.g. Japan" autocomplete="off" />
+
+          <div class="label" id="filter-label">SuperRegion</div>
+          <div class="chips" role="group" aria-labelledby="filter-label" id="filters"></div>
+
+          <p class="count" id="count" aria-live="polite"></p>
+          <ul class="list" id="list"></ul>
+        </section>
+
+        <section id="detail" class="detail" hidden aria-live="polite"></section>
+
+        <footer class="cta">
+          <p><strong>Is your country not here yet?</strong> New regions are always welcome.</p>
+          <a class="btn" target="_top" href="https://junior.robocup.org/qualification/#bringing-robocupjunior-to-a-new-region">Start RoboCupJunior in your region</a>
+        </footer>
+      </aside>
+
+      <main class="map-wrap">
+        <div id="map" class="map" role="region" aria-label="Map of RoboCupJunior regions. Use the list to browse regions with a keyboard."></div>
+        <div class="legend" id="legend" aria-hidden="true"></div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

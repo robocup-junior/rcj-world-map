@@ -1,0 +1,398 @@
+[
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "superregion": "americas",
+    "lat": -34.6,
+    "lng": -58.4,
+    "website": "https://www.roboliga.edu.ar/",
+    "logo": null
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "superregion": "asia-pacific",
+    "lat": -24.8437,
+    "lng": 133.8021,
+    "website": "https://www.robocupjunior.org.au/",
+    "logo": null
+  },
+  {
+    "id": "austria",
+    "name": "Austria",
+    "superregion": "emea",
+    "lat": 47.5,
+    "lng": 14.6,
+    "website": "https://robocupjunior.at/",
+    "logo": null
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "superregion": "americas",
+    "lat": -15.8,
+    "lng": -47.9,
+    "website": "https://www.cbrobotica.org/index.php/categorias/",
+    "logo": null
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "superregion": "americas",
+    "lat": 56.1,
+    "lng": -106.3,
+    "website": "https://robocupcanada.ca/",
+    "logo": null
+  },
+  {
+    "id": "chile",
+    "name": "Chile",
+    "superregion": "americas",
+    "lat": -35.7,
+    "lng": -71.5,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "superregion": "asia-pacific",
+    "lat": 35.9,
+    "lng": 104.2,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "croatia",
+    "name": "Croatia",
+    "superregion": "emea",
+    "lat": 45.1,
+    "lng": 15.2,
+    "website": "https://robocupcroatia.com/",
+    "logo": null
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "superregion": "emea",
+    "lat": 26.8,
+    "lng": 30.8,
+    "website": "https://www.rcjegypt.org/",
+    "logo": null
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "superregion": "emea",
+    "lat": 46.2,
+    "lng": 2.2,
+    "website": "https://www.robocup.fr/robocupjunior-1",
+    "logo": null
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "superregion": "emea",
+    "lat": 51.2,
+    "lng": 10.5,
+    "website": "https://robocup.de/",
+    "logo": null
+  },
+  {
+    "id": "greece",
+    "name": "Greece",
+    "superregion": "emea",
+    "lat": 39.1,
+    "lng": 22.9,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "hungary",
+    "name": "Hungary",
+    "superregion": "emea",
+    "lat": 47.2,
+    "lng": 19.5,
+    "website": "http://pingvin.nyf.hu/robojun/",
+    "logo": null
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "superregion": "asia-pacific",
+    "lat": 21.1,
+    "lng": 78,
+    "website": "https://www.rcjindia.com/",
+    "logo": null
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "superregion": "asia-pacific",
+    "lat": -2.5,
+    "lng": 118,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "iran",
+    "name": "Iran",
+    "superregion": "asia-pacific",
+    "lat": 32.4,
+    "lng": 53.7,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "iraq",
+    "name": "Iraq",
+    "superregion": "asia-pacific",
+    "lat": 33.2,
+    "lng": 43.7,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "superregion": "emea",
+    "lat": 31,
+    "lng": 35,
+    "website": "http://www.robotica.co.il/robocup/",
+    "logo": null
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "superregion": "emea",
+    "lat": 41.9,
+    "lng": 12.6,
+    "website": "http://www.robocupjunior.it/",
+    "logo": null
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "superregion": "asia-pacific",
+    "lat": 36.2,
+    "lng": 138.3,
+    "website": "https://www.robocupjunior.jp/",
+    "logo": null
+  },
+  {
+    "id": "kazakhstan",
+    "name": "Kazakhstan",
+    "superregion": "asia-pacific",
+    "lat": 48,
+    "lng": 67,
+    "website": "https://kazrobotics.org/robocup/",
+    "logo": null
+  },
+  {
+    "id": "kenya",
+    "name": "Kenya",
+    "superregion": "emea",
+    "lat": 0,
+    "lng": 37.9,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "superregion": "americas",
+    "lat": 23.6,
+    "lng": -102.6,
+    "website": "https://www.femexrobotica.org/",
+    "logo": null
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "superregion": "emea",
+    "lat": 52.1,
+    "lng": 5.3,
+    "website": "https://www.robocupjunior.nl/",
+    "logo": null
+  },
+  {
+    "id": "new-zealand",
+    "name": "New Zealand",
+    "superregion": "asia-pacific",
+    "lat": -41,
+    "lng": 174,
+    "website": "https://www.robocupjunior.org.nz/",
+    "logo": null
+  },
+  {
+    "id": "panama",
+    "name": "Panama",
+    "superregion": "americas",
+    "lat": 8.5,
+    "lng": -80,
+    "website": "https://robotica.senacyt.gob.pa/",
+    "logo": null
+  },
+  {
+    "id": "peru",
+    "name": "Peru",
+    "superregion": "americas",
+    "lat": -9.2,
+    "lng": -75,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "superregion": "emea",
+    "lat": 39.4,
+    "lng": -8.2,
+    "website": "http://robocup-portugal.sprobotica.pt/",
+    "logo": null
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "superregion": "asia-pacific",
+    "lat": 61.5,
+    "lng": 105.3,
+    "website": "http://robocuprussiaopen.ru/",
+    "logo": null
+  },
+  {
+    "id": "serbia",
+    "name": "Serbia",
+    "superregion": "emea",
+    "lat": 44,
+    "lng": 20.8,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "superregion": "asia-pacific",
+    "lat": 1.35,
+    "lng": 103.82,
+    "website": "https://robocupsg.org/",
+    "logo": null
+  },
+  {
+    "id": "slovakia",
+    "name": "Slovakia",
+    "superregion": "emea",
+    "lat": 48.7,
+    "lng": 19.7,
+    "website": "https://www.skse.sk/",
+    "logo": null
+  },
+  {
+    "id": "slovenia",
+    "name": "Slovenia",
+    "superregion": "emea",
+    "lat": 46.1,
+    "lng": 14.9,
+    "website": "https://robobum.um.si/",
+    "logo": null
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "superregion": "asia-pacific",
+    "lat": 36.5,
+    "lng": 127.8,
+    "website": "https://robocupkorea.org/",
+    "logo": null
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "superregion": "emea",
+    "lat": 62,
+    "lng": 15,
+    "website": "https://robocupjunior.se/",
+    "logo": null
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "superregion": "emea",
+    "lat": 46.8,
+    "lng": 8.2,
+    "website": "https://robocupjunior.ch/",
+    "logo": null
+  },
+  {
+    "id": "taiwan",
+    "name": "Taiwan",
+    "superregion": "asia-pacific",
+    "lat": 23.7,
+    "lng": 121,
+    "website": "http://humanoid.nkust.edu.tw/TaiwanRCJ20214/",
+    "logo": null
+  },
+  {
+    "id": "thailand",
+    "name": "Thailand",
+    "superregion": "asia-pacific",
+    "lat": 15.9,
+    "lng": 101,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "tunisia",
+    "name": "Tunisia",
+    "superregion": "emea",
+    "lat": 34,
+    "lng": 9,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "superregion": "emea",
+    "lat": 39,
+    "lng": 35,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "superregion": "asia-pacific",
+    "lat": 24.3,
+    "lng": 54.5,
+    "website": "https://robocup.ae/",
+    "logo": null
+  },
+  {
+    "id": "united-kingdom",
+    "name": "United Kingdom",
+    "superregion": "emea",
+    "lat": 54,
+    "lng": -2,
+    "website": null,
+    "logo": null
+  },
+  {
+    "id": "united-states",
+    "name": "United States",
+    "superregion": "americas",
+    "lat": 39.8,
+    "lng": -98.6,
+    "website": "https://www.robocupjunior.us/",
+    "logo": null
+  },
+  {
+    "id": "uruguay",
+    "name": "Uruguay",
+    "superregion": "americas",
+    "lat": -32.5,
+    "lng": -55.8,
+    "website": "https://sumo.uy/",
+    "logo": null
+  }
+]
